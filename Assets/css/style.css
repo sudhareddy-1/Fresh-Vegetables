@@ -1,0 +1,825 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header div h1 span {
+    color: orange;
+}
+
+header div h1 span i {
+    color: orange;
+}
+
+header div h1 {
+    color: blue;
+}
+
+header ul {
+    display: none;
+    align-items: center;
+    justify-content: start;
+    padding: 0;
+    gap: 10px;
+}
+
+header ul li {
+    list-style: none;
+    transition: all 0.1s ease-in-out;
+}
+
+header ul li:hover {
+    color: orange;
+}
+
+header section i {
+    background-color: rgb(238, 238, 238);
+    padding: 20px 17px;
+    color: rgb(17, 15, 65);
+    transition: all 0.1s ease-in-out;
+}
+
+header section i:hover {
+    background-color: orange;
+}
+
+header section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+
+
+
+/* Extra small devices (phones, 640px and down) */
+@media only screen and (max-width: 640px) {
+    header section i {
+        padding: 15px 12px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 640px and up) */
+@media only screen and (min-width: 640px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    header ul {
+        display: flex;
+    }
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {}
+
+/* Extra large devices (large laptops and desktops, 1280px and up) */
+@media only screen and (min-width: 1280px) {}
+
+aside {
+    background: url("/Assets/img/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    padding: 100px;
+}
+
+aside div {
+    width: 400px;
+    text-align: center;
+}
+
+aside div h1 span {
+    color: orange;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 640px) {
+    aside {
+        background-size: 10 100%;
+        padding: 60px 20px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 640px) {
+    aside {
+        background-size: 100% 100%;
+        padding: 60px 60px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    aside {
+        background-size: 100% 100%;
+        padding: 70px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1024px) {
+    aside {
+        background-size: 100% 100%;
+        padding: 80px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1280px) {
+    aside {
+        background-size: 100% 100%;
+        padding: 100px;
+    }
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    src: url("/assect/font/Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/assect/font/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 100;
+    src: url("/assect/font/Roboto-Thin.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    src: url("/assect/font/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    src: url("/assect/font/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/assect/font/Roboto-Bold.ttf");
+}
+
+* {
+    font-family: roboto;
+    color: rgb(17, 15, 65);
+    user-select: none;
+
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-weight: bolder;
+    font-family: Roboto;
+}
+
+p {
+    font-weight: 500;
+}
+
+button {
+    padding: 10px 25px;
+    background: transparent;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 16px;
+    transition: all 0.1s ease-in-out;
+}
+
+button:hover {
+    background-color: orange;
+    color: white;
+    font-weight: 700;
+    transform: scale(1.05);
+}
+
+div.mart {
+    background-color: rgb(238, 238, 238);
+    padding-bottom: 20px;
+}
+
+div.organic h1 span {
+    clip-path: polygon(0 0, 100% 0, 90% 50%, 100% 100%, 0 100%, 10% 50%);
+    background-color: orange;
+    padding: 10px 25px;
+    display: inline-block;
+    width: 130px;
+}
+
+
+
+div.f1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+div.organic h1 {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+.card {
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+    padding: 5px;
+}
+
+.card div {
+    height: 340px;
+    width: 340px;
+    border: 1px rgb(214, 212, 212) solid;
+    text-align: center;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+
+
+}
+
+.card:hover {
+    height: 340px;
+    width: 340px;
+    padding: 0;
+}
+
+.card>div:hover {
+    border: 7px gray solid;
+
+}
+
+.card div img {
+    width: 150px;
+}
+
+.card div p {
+    font-weight: 400;
+}
+
+
+
+
+/* Extra small devices (phones, 640px and down) */
+@media only screen and (max-width: 640px) {}
+
+/* Small devices (portrait tablets and large phones, 640px and up) */
+@media only screen and (min-width: 640px) {
+
+    div.organic h1 {
+        margin: 10px 10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    div.organic h1 {
+        margin: 20px 0;
+    }
+
+
+
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {}
+
+/* Extra large devices (large laptops and desktops, 1280px and up) */
+@media only screen and (min-width: 1280px) {}
+
+.f2 {
+    display: grid;
+
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    row-gap: 30px;
+    column-gap: 20px;
+}
+
+.card2 {
+    background-color: white;
+    height: 290px;
+    width: 240px;
+    padding: 10px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.card2>div {
+    text-align: center;
+    text-transform: capitalize;
+    height: 280px;
+    width: 230px;
+    border: 1px solid grey;
+    transition: all 0.3s ease-in-out;
+}
+
+.card2:hover {
+    padding: 0;
+}
+
+.card2>div:hover {
+    border: 7px solid gray;
+}
+
+.card2 div h2 {
+    margin: 2px 0;
+}
+
+.card2 div p {
+    margin: 5px 0;
+}
+
+.card2 div img {
+    width: 150px;
+}
+
+div.star {
+    padding: 5px 0;
+}
+
+/* Extra small devices (phones, 640px and down) */
+@media only screen and (max-width: 640px) {
+    .f2 {
+        grid-template-columns: 260px;
+        grid-auto-rows: 300px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 640px and up) */
+@media only screen and (min-width: 640px) {
+    .f2 {
+        grid-template-columns: 260px 260px;
+        grid-auto-rows: 300px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .f2 {
+        grid-template-columns: 260px 260px;
+        grid-auto-rows: 300px;
+    }
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {
+    .f2 {
+        grid-template-columns: 260px 260px 260px;
+        grid-auto-rows: 300px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1280px and up) */
+@media only screen and (min-width: 1280px) {
+    .f2 {
+        grid-template-columns: 260px 260px 260px 260px;
+        grid-auto-rows: 300px;
+    }
+}
+
+div.f3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 0px 40px;
+}
+
+
+
+div.organic h1 {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#clip3 {
+    width: 160px;
+}
+
+.card3 {
+    height: 280px;
+    width: 250px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+    padding: 5px;
+}
+
+.card3 div {
+    height: 270px;
+    width: 240px;
+    border: 1px rgb(214, 212, 212) solid;
+    text-align: center;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+
+
+}
+
+.card3:hover {
+    height: 270px;
+    width: 240px;
+    padding: 0;
+}
+
+.card3>div:hover {
+    border: 7px gray solid;
+
+}
+
+.card3 div img {
+    width: 150px;
+}
+
+.card3 div h2 {
+    margin: 10px 0;
+}
+
+.card3 div p {
+    font-weight: 400;
+    margin: 0px 0 10px;
+}
+
+
+
+
+/* Extra small devices (phones, 640px and down) */
+@media only screen and (max-width: 640px) {}
+
+/* Small devices (portrait tablets and large phones, 640px and up) */
+@media only screen and (min-width: 640px) {
+
+    div.organic h1 {
+        margin: 10px 10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    div.organic h1 {
+        margin: 20px 0;
+    }
+
+
+
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {}
+
+/* Extra large devices (large laptops and desktops, 1280px and up) */
+@media only screen and (min-width: 1280px) {}
+
+div.f4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+div.organic h1 {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#clip4 {
+    width: 100px;
+}
+
+.card4 {
+    height: 330px;
+    width: 270px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+    padding: 5px;
+}
+
+.card4>div {
+    height: 320px;
+    width: 260px;
+    border: 1px rgb(214, 212, 212) solid;
+    text-align: center;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+
+
+}
+
+.card4:hover {
+    height: 320px;
+    width: 260px;
+    padding: 0;
+}
+
+.card4>div:hover {
+    border: 7px gray solid;
+
+}
+
+.card4 div img {
+    width: 100px;
+    clip-path: circle(50% at 50% 50%);
+
+}
+
+.card4 div h2 {
+    margin: 10px 0;
+}
+
+.card4 div p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 10px 10px;
+}
+
+
+
+
+/* Extra small devices (phones, 640px and down) */
+@media only screen and (max-width: 640px) {}
+
+/* Small devices (portrait tablets and large phones, 640px and up) */
+@media only screen and (min-width: 640px) {
+
+    div.organic h1 {
+        margin: 10px 10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    div.organic h1 {
+        margin: 20px 0;
+    }
+
+
+
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {}
+
+/* Extra large devices (large laptops and desktops, 1280px and up) */
+@media only screen and (min-width: 1280px) {}
+
+div.f5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+div.organic h1 {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+.card5 {
+    height: 350px;
+    width: 380px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    border-radius: 6px;
+}
+
+.card5 section {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 19px;
+    border-bottom: 1px solid gray;
+}
+
+.card5 section p {
+    margin: 10px;
+}
+
+#clip5 {
+    width: 90px;
+}
+
+.card5:hover {
+
+    transform: scale(1.03);
+}
+
+.card5 h2 {
+    margin: 10px 0;
+    padding: 0 20px;
+}
+
+.card5 section p i {
+    color: orange;
+    margin-right: 7px;
+}
+
+
+
+.card5 img {
+    width: 100%;
+    height: 45%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 6px 6px 0 0;
+}
+
+.card5 button {
+    margin: 0 20px;
+}
+
+.card5 p {
+    font-weight: 400;
+    padding: 0 20px;
+    margin-top: 0px;
+}
+
+
+
+
+/* Extra small devices (phones, 640px and down) */
+@media only screen and (max-width: 640px) {}
+
+/* Small devices (portrait tablets and large phones, 640px and up) */
+@media only screen and (min-width: 640px) {
+
+    div.organic h1 {
+        margin: 10px 10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    div.organic h1 {
+        margin: 20px 0;
+    }
+
+
+
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {}
+
+/* Extra large devices (large laptops and desktops, 1280px and up) */
+@media only screen and (min-width: 1280px) {}
+
+.creator {
+    margin: 0 50px;
+}
+
+.creator h3 {
+    text-align: center;
+    text-transform: capitalize;
+
+    & span {
+        color: orange;
+    }
+}
+
+
+footer {
+    min-height: 45vh;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 50px;
+    text-transform: capitalize;
+}
+
+footer>div {
+    flex: 1;
+    margin: 0 20px;
+    min-width: 220px;
+}
+
+footer div h2 {
+    color: blue;
+}
+
+.about h2 span {
+    color: orange;
+}
+
+.about h2 span i {
+    color: orange;
+    padding: 0;
+    background-color: white;
+}
+
+footer div ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer div ul li {
+    padding: 5px 0;
+}
+
+footer div ul li:hover {
+    transform: translateX(7px);
+}
+
+footer div p {
+    margin-bottom: 10px;
+}
+
+footer div input {
+    border: none;
+    background-color: rgb(211, 207, 207);
+    padding: 10px 10px;
+    width: 200px;
+    border-radius: 2px;
+}
+
+footer div input:focus {
+    padding: 12px;
+
+}
+
+footer div button {
+    margin: 10px 0;
+}
+
+.about i {
+    background-color: rgb(207, 207, 207);
+    padding: 8px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.about>i:hover {
+    background-color: orange;
+}
+
+footer div ul li i {
+    color: orange;
+    margin-right: 7px;
+}
